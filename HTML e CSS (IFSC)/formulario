@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="formulario.css">
+
+    <title>Atividade Formulários - Web Design</title>
+    <link rel="icon" type="image/x-icon" href="https://rwnobrega.page/_assets/ifsc-logo.png">
+</head>
+
+<body>
+<header>
+<hr>
+    <h1>Lista 3 Web Design - Formulários</h1>
+<hr>
+</header>
+    <h2 id="title1">Currículo on-line - Cadastro</h2>
+
+<div class="formulario1">
+
+    <fieldset class="fg">
+    <form action="recebe-dados.php" target="_blank" method="get" id="form1">
+        <fieldset class="f1">
+        <legend style="text-align: left;">Dados Pessoais:</legend>
+        <div id="infos">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" value="Pedro de Alcântara" placeholder="Escreva o seu nome"><br>
+            <label for="age">Idade:</label>
+            <input type="number" name="age" min="18" max="65" pl><br>
+            <label for="birth">Nascimento</label>
+            <input type="date" name="birth" value="" min="1980-12-31" max="2007-12-31">
+            <button type="button" id="birth" onclick="document.getElementById('birth').value = ' ' ">X</button>
+        </div>
+        </fieldset>
+
+        <fieldset class="f1b">
+        <legend>Dados Profissionais:</legend>
+            <label>Graduado em:</label><br>
+            <input type="radio" name="year" id="2020">
+            <label for="2020">2020</label><br>
+            <input type="radio" name="year" id="2019">
+            <label for="2019">2019</label><br>
+            <input type="radio" name="year" id="2018">
+            <label for="2018">2019</label><br>
+            <input type="radio" name="year" id="before">
+            <label for="before_2018">Antes de 2018</label><br><br>
+        
+            <label>Área de Atuação:</label><br>
+            <input type="checkbox" name="area" id="area">
+            <label for="sistemas">Desenvolvimento de Sistemas</label><br>
+            <input type="checkbox" name="area" id="area">
+            <label for="ti">Gestão de TI</label>
+            </fieldset>
+    </form>
+        <button form="form1" type="submit" class="button" id="b1" onclick="SendData">Cadastrar Dados</button>
+    </fieldset>
+
+</div>
+
+<br>
+<hr>
+
+<h2 id="title2">Formulários em HTML5 - coleta de informações pessoais</h2>
+
+<div class="formulario2">
+
+        <form action="recebe-dados-2.php" target="_blank" method="get" id="form2">
+            <fieldset class="f2">
+                <legend>Informações pessoais</legend> 
+                
+                <div id="infos">
+                    <label for="name">Nome:</label>
+                    <input type="name" name="name" placeholder="Seu nome aqui..."><br>
+                    <label for="mail">E-mail</label>
+                    <input type="name" name="mail"><br>
+                    <label for="birth">Data de Nascimento</label>
+                    <input type="date" name="birth"><br>
+                    <label for="login">Login</label>
+                    <input type="name" name="login" required><br>
+                    <label for="senha">Senha</label>
+                    <input type="name" name="pword" required><br> 
+                </div>
+                    <br>
+                
+                    <label for="check">Faixa Etária:</label><br>
+                    <input type="radio" name="check">
+                    <label for="check">Menor ou igual a 18 anos</label><br>
+                    <input type="radio" name="check">
+                    <label>Maior que 18 anos</label>
+            </fieldset>
+</div>
+        <button form="form2" class="button" id="b2" type="submit">Efetuar Cadastro</button>
+        </form>
+<br>
+<br>
+<footer style="text-align: center; background-color:rgba(11, 188, 20, 0.575); font-style:italic; font-size:large">
+    <hr>
+    <h4>Assinado: Gabriel Ribeiro de Souza</h4>
+    <hr>
+</footer>
+</body>
+</html>
