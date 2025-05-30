@@ -24,11 +24,11 @@
         <fieldset class="f1">
         <legend style="text-align: left;">Dados Pessoais:</legend>
         <div id="infos">
-            <label for="name">Nome:</label>
-            <input type="text" name="name" value="Pedro de Alcântara" placeholder="Escreva o seu nome"><br>
-            <label for="age">Idade:</label>
-            <input type="number" name="age" min="18" max="65" pl><br>
-            <label for="birth">Nascimento</label>
+            <label for="name" class="dados">Nome:</label>
+            <input type="text" name="name" value="Pedro de Alcântara" placeholder="Escreva o seu nome" style="width: 250px;"><br>
+            <label for="age" class="dados">Idade:</label>
+            <input type="number" name="age" min="18" max="65" style="width: 150px;"><br>
+            <label for="birth" class="dados">Nascimento</label>
             <input type="date" name="birth" value="" min="1980-12-31" max="2007-12-31">
             <button type="button" id="birth" onclick="document.getElementById('birth').value = ' ' ">X</button>
         </div>
@@ -70,24 +70,24 @@
                 <legend>Informações pessoais</legend> 
                 
                 <div id="infos">
-                    <label for="name">Nome:</label>
-                    <input type="name" name="name" placeholder="Seu nome aqui..."><br>
-                    <label for="mail">E-mail</label>
-                    <input type="name" name="mail"><br>
-                    <label for="birth">Data de Nascimento</label>
-                    <input type="date" name="birth"><br>
-                    <label for="login">Login</label>
-                    <input type="name" name="login" required><br>
-                    <label for="senha">Senha</label>
-                    <input type="name" name="pword" required><br> 
+                    <label for="name" class="infos">Nome:</label>
+                    <input type="text" name="name" placeholder="Seu nome aqui..." style="width: 250px;"><br>
+                    <label for="mail" class="infos">E-mail</label>
+                    <input type="email" name="mail" style="width: 250px;"><br>
+                    <label for="birth" class="infos">Data de Nascimento</label>
+                    <input type="date" name="birth" min="1980-12-31" max="2007-12-31"><br>
+                    <label for="login" class="infos">Login</label>
+                    <input type="text" name="login" required style="width: 130px;"><br>
+                    <label for="senha" class="infos">Senha</label>
+                    <input type="password" name="pword" required style="width: 130px;"><br> 
                 </div>
                     <br>
                 
-                    <label for="check">Faixa Etária:</label><br>
+                    <label>Faixa Etária:</label><br>
                     <input type="radio" name="check">
                     <label for="check">Menor ou igual a 18 anos</label><br>
                     <input type="radio" name="check">
-                    <label>Maior que 18 anos</label>
+                    <label for="check">Maior que 18 anos</label>
             </fieldset>
 </div>
         <button form="form2" class="button" id="b2" type="submit">Efetuar Cadastro</button>
