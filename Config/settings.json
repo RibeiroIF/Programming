@@ -1,10 +1,9 @@
 {
     "window.zoomLevel": 1,
     "symbols.hidesExplorerArrows": false,
-    "workbench.iconTheme": "symbols",
+    "workbench.iconTheme": "vscode-icons",
     "editor.fontFamily": "JetBrains",
     "editor.lineHeight": 1.8,
-    "editor.rulers": [80, 120],
     "workbench.startupEditor": "newUntitledFile",
     "editor.renderLineHighlight": "gutter",
     "editor.fontLigatures": true,
@@ -21,7 +20,7 @@
     "apc.electron":{
 
         "titleBarStyle": "hiddenInset",
-        "frame": false,
+        "frame": false
     },
     "apc.header": {
         "height": 36
@@ -34,11 +33,11 @@
         ".title-label > h2":"display: none",
         ".editor-actions":"display: none",
         ".pane-body":"padding: 8px",
-        ".pane-header":"padding 8px",
+        ".pane-header":"padding 8px"
     },
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
-    "workbench.colorTheme": "Visual Studio Dark - C++",
+    "workbench.colorTheme": "Visual Studio Dark - C++"
     
    
     
