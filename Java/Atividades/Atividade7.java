@@ -1,3 +1,5 @@
+package Atividades;
+
 import java.util.*;
 
 public class Atividade7 {
