@@ -21,7 +21,7 @@ public class Questao1 {
             valor = ((150*0.2262f)+(extra*0.26531f));
         }
 
-        System.out.println("Seu gasto total de luz neste mês foi de: "+valor);
+        System.out.println(name+", seu gasto total de luz neste mês foi de: "+valor);
 
     }
     
