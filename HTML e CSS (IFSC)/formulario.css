@@ -8,39 +8,40 @@ header{
     background-color: rgba(11, 188, 20, 0.575);
 }
 .formulario1{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
     font-family: 'Sriracha';
 }
 .formulario2{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
     font-family: 'Encode Sans Semi Condensed';
 }
 #title1{
     font-size: 35px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: center;
     background-color:rgb(194, 194, 213);
     box-shadow: 4px 4px 4px 2px rgb(62, 8, 57);
 }
 #title2{
     font-size: 26px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: center;
     background-color: rgb(235, 232, 232);
     box-shadow: 3px 3px 5px 2px rgb(106, 103, 103);
 }
 .fg{
     border-width: 1px;
-    border-style:solid ;
+    border-style:solid;
     border-color: black;
     background-color: rgb(206, 206, 222);
     box-shadow: 3px 3px 3px 2px rgb(62, 8, 57);
 }
 .f2{
+    line-height: 1.8;
     border-width: 1px;
     border-style: solid;
     border-color: black;
@@ -60,6 +61,7 @@ header{
 }
 /*Seção do CSS para fieldsets internos*/
 .f1{
+    line-height: 1.5;
     border-color: gray;
     border-width: 1px;
 }
