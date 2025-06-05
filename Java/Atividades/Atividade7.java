@@ -1,5 +1,3 @@
-package Atividades;
-
 import java.util.*;
 
 public class Atividade7 {
@@ -11,17 +9,15 @@ public class Atividade7 {
         int y = x;
 
         System.out.print("Ordem Crescente: ");
-        do{
+        while (x < y+10){
             System.out.print(x+" ");
             x++;
         }
-        while (x < y+10);
         x=x-10;
         System.out.print("\nOrdem Descrescente: ");
-        do{
+        while (x > y-10){
             System.out.print(x+" ");
             x--;
         }
-        while (x > y-10);
     }
 }

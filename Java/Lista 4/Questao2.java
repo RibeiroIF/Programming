@@ -15,10 +15,10 @@ public class Questao2 {
     System.out.print("E qual o valor do terceiro lado do triângulo?: ");
     float c = sideThree.nextFloat();
 
-    if(a+b > c || a+c > b || b+c > a){
+    if(a+b < c || a+c < b || b+c < a){
         System.out.print("Este não é um triângulo\n");
     }
-    else if(a==b && b==c){
+    else if(a==b && b==c && a==c){
         System.out.print("Este é um triângulo equilátero\n");
     }
     else if(a==b || b==c || a==c){
