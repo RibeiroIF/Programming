@@ -10,6 +10,7 @@ public class Questao10{
     public static void main(String[] args){
         Scanner myHeight = new Scanner(System.in);
         Scanner myGender = new Scanner(System.in);
+        Scanner myResponse = new Scanner(System.in);
 
         System.out.print("Qual o seu sexo: ");
         String gender = myGender.nextLine();
@@ -17,13 +18,16 @@ public class Questao10{
         System.out.print("Qual a sua altura: ");
         float height = myHeight.nextFloat();
 
-        String go = "S/N";
+        System.out.print("Deseja continuar?: "); 
+        String go = myResponse.nextLine();
         float weight;
         
-        while (go == "S") {
+        go = "s";
+        
+        while (go == "S" || go == "s") {
             System.out.print("Qual o seu sexo: ");
             gender = myGender.nextLine();
-            System.out.print("Qual o seu peso: ");
+            System.out.print("Qual a sua altura: ");
             height = myHeight.nextFloat();
         if(gender == "f"){
             weight = (62.1f * height) - 44.7f;

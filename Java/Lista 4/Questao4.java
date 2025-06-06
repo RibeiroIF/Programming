@@ -1,5 +1,5 @@
 import java.util.*;
-
+//FINALIZADO
 public class Questao4 {
     public static void main(String[] args){
         Scanner myNum = new Scanner(System.in);
@@ -16,4 +16,4 @@ public class Questao4 {
             
         }
     }
-}
+}//FINALIZADO
