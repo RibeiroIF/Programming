@@ -10,7 +10,7 @@ public class Questao7 {
         System.out.print("Qual o valor em dólar?: ");
         float b = myQ7.nextFloat();
         float reais = 1f;
-        reais = (b/a);
+        reais = (b*a);
 
         while(reais != 0f){
             System.out.print("O valor convertido para reais é: "+reais);
@@ -18,10 +18,9 @@ public class Questao7 {
             a = myQ7.nextFloat();
             System.out.print("Qual o valor em dólar?: ");
             b = myQ7.nextFloat();
-            reais = (b/a);
-        if(reais == 0){
-            System.out.print("O valor convertido para reais é: "+reais);
-            System.out.print("\nOperação encerrada.");
+            reais = (b*a);
+        if(b == 0){
+            System.out.print("\nOperação encerrada.\n");
             break;
         }
         }

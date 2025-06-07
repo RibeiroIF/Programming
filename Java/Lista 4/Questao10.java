@@ -8,39 +8,37 @@ import java.util.Scanner;
 //afirmativa.
 public class Questao10{
     public static void main(String[] args){
-        Scanner myHeight = new Scanner(System.in);
-        Scanner myGender = new Scanner(System.in);
-        Scanner myResponse = new Scanner(System.in);
+        Scanner myQ10 = new Scanner(System.in);
 
         System.out.print("Qual o seu sexo: ");
-        String gender = myGender.nextLine();
+        String gender = myQ10.nextLine();
             
         System.out.print("Qual a sua altura: ");
-        float height = myHeight.nextFloat();
-
-        System.out.print("Deseja continuar?: "); 
-        String go = myResponse.nextLine();
+        float height = myQ10.nextFloat();
+        String go = myQ10.nextLine();
         float weight;
-        
         go = "s";
         
-        while (go == "S" || go == "s") {
-            System.out.print("Qual o seu sexo: ");
-            gender = myGender.nextLine();
-            System.out.print("Qual a sua altura: ");
-            height = myHeight.nextFloat();
-        if(gender == "f"){
+        while (go.equals("s")) {
+        if(gender.equals("f")){
             weight = (62.1f * height) - 44.7f;
-            System.out.print("Seu peso é de: "+weight);
-            System.out.print("Deseja continuar?: "); 
-            continue;
+            System.out.print("Seu peso ideal é de: "+weight);
+            System.out.print("\nDeseja continuar? S/N: ");
+            go = myQ10.nextLine(); 
         }
-        else if(gender == "m"){
+        else if(gender.equals("m")){
             weight = (72.7f * height) - 58f;
-            System.out.print("Seu peso é de: "+weight);
-            System.out.print("Deseja continuar?: "); 
-            continue;
+            System.out.print("Seu peso ideal é de: "+weight);
+            System.out.print("\nDeseja continuar? S/N: ");
+            go = myQ10.nextLine();
         }
+        System.out.print("Qual o seu sexo: ");
+        gender = myQ10.nextLine();   
+        System.out.print("Qual a sua altura: ");
+        height = myQ10.nextFloat();
+        if(go.equals("n")){
+            break;
         }
     }
 }
+}//NÃO FINALIZADO 

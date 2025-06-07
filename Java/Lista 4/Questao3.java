@@ -1,5 +1,5 @@
 import java.util.*;
-//NÃO FINALIZADO
+
 public class Questao3 {
     public static void main(String[] args){
         Scanner myNum = new Scanner(System.in);
@@ -19,6 +19,9 @@ public class Questao3 {
             System.out.print(a+" ");
             a = a+2;
         }
-        }System.out.print("Não foi o número solicitado");
+        }
+        else{
+            System.out.print("Não foi o número solicitado");
+        }
     }
-}//NÃO FINALIZADO
+}//FINALIZADO
