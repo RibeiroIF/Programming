@@ -1,5 +1,5 @@
-import java.util.*;
-//FINALIZADO
+import java.util.*; //FINALIZADO
+//Faça um algoritmo para gerar a tabuada (os dez primeiros termos) de um número lido. 
 public class Questao4 {
     public static void main(String[] args){
         Scanner myNum = new Scanner(System.in);

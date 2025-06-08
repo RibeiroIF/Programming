@@ -1,5 +1,10 @@
-import java.util.*;
-
+import java.util.*; //FINALIZADO
+//Dados 3 valores numéricos A,B e C, verificar se eles podem ser comprimentos de lados de um triângulo e, se
+//forem, verificar (classificados quanto ao lado) se é triângulo: equilátero, isósceles ou escaleno. Caso não seja um
+//triângulo, escrever uma mensagem.
+//Obs. 1: Triângulos: Equilátero: todos os lados iguais; Isósceles: dois lados iguais; Escaleno: todos os lados
+//diferentes
+//Obs. 2: Para que seja um triângulo, cada lado deve ser menor que a soma dos outros dois.
 public class Questao2 {
     public static void main(String[]args){
         Scanner sideOne = new Scanner(System.in);

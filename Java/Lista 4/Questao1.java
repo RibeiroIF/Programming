@@ -1,5 +1,6 @@
-import java.util.*;
-
+import java.util.*; //FINALIZADO
+//Faça um algoritmo que, dado o consumo em KWh, calcule o valor da energia elétrica consumida em um mês.
+//Sabe-se que: de 0-150 cobra-se R$ 0,2262 por KWh e o excedente (>150) cobra-se R$ 0,26531 por KWh 
 public class Questao1 {
     public static void main(String[] args){
         Scanner myName = new Scanner(System.in);

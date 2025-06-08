@@ -1,5 +1,5 @@
-import java.util.*;
-
+import java.util.*; //FINALIZADO
+//Faça um algoritmo que mostre os números de 1 à 30 sendo que qdo o número for múltiplo de quatro apareça em seu lugar a palavra ‘pim’.
 public class Questao6{
     public static void main(String[] args){
         Scanner myNum = new Scanner(System.in);

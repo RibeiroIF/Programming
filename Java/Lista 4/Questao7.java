@@ -1,6 +1,6 @@
-import java.util.*;
-//Construa um algoritmo para ler a cotação do dólar e, na sequência, ler um determinado valor em dólar//
-//mostrando seu respectivo valor em reais. Repita a operação enquanto o valor for diferente de 0 //
+import java.util.*; //FINALIZADO
+//Construa um algoritmo para ler a cotação do dólar e, na sequência, ler um determinado valor em dólar 
+//mostrando seu respectivo valor em reais. Repita a operação enquanto o valor for diferente de 0 
 public class Questao7 {
     public static void main(String[] args){
         Scanner myQ7 = new Scanner(System.in);

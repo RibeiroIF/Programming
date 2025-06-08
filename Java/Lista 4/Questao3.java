@@ -1,5 +1,5 @@
-import java.util.*;
-
+import java.util.*; //FINALIZADO
+//Faça um algoritmo que mostre os números pares entre 1 e 27
 public class Questao3 {
     public static void main(String[] args){
         Scanner myNum = new Scanner(System.in);

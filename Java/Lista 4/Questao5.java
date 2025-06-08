@@ -1,5 +1,5 @@
-import java.util.*;
-//FINALIZADA
+import java.util.*; //FINALIZADO
+//Faça um algoritmo para ler 15 números é informar se cada número é maior, menor ou igual a 0 (zero). 
 public class Questao5{
     public static void main(String[] args){
         Scanner myNum = new Scanner(System.in);
