@@ -30,7 +30,7 @@
             <input type="number" name="age" min="18" max="65" style="width: 150px;"><br>
             <label for="birth" class="dados">Nascimento</label>
             <input type="date" name="birth" value="" min="1980-12-31" max="2007-12-31">
-            <button type="button" id="birth" onclick="document.getElementById('birth').value = ' ' ">X</button>
+            <button type="reset" id="birth">X</button>
         </div>
         </fieldset>
 
@@ -47,9 +47,9 @@
             <label for="before_2018">Antes de 2018</label><br><br>
         
             <label>Área de Atuação:</label><br>
-            <input type="checkbox" name="area" id="area">
+            <input type="checkbox" name="area">
             <label for="sistemas">Desenvolvimento de Sistemas</label><br>
-            <input type="checkbox" name="area" id="area">
+            <input type="checkbox" name="area">
             <label for="ti">Gestão de TI</label>
             </fieldset>
     </form>
@@ -69,7 +69,7 @@
             <fieldset class="f2">
                 <legend>Informações pessoais</legend> 
                 
-                <div id="infos">
+                <div>
                     <label for="name" class="infos">Nome:</label>
                     <input type="text" name="name" placeholder="Seu nome aqui..." style="width: 250px;"><br>
                     <label for="mail" class="infos">E-mail</label>
@@ -82,19 +82,20 @@
                     <input type="password" name="pword" required style="width: 130px;"><br> 
                 </div>
                     <br>
-                
+                <div>
                     <label>Faixa Etária:</label><br>
                     <input type="radio" name="check">
                     <label for="check">Menor ou igual a 18 anos</label><br>
                     <input type="radio" name="check">
                     <label for="check">Maior que 18 anos</label>
+                </div>
             </fieldset>
+        </form>
 </div>
         <button form="form2" class="button" id="b2" type="submit">Efetuar Cadastro</button>
-        </form>
 <br>
 <br>
-<footer style="text-align: center; background-color:rgba(11, 188, 20, 0.575); font-style:italic; font-size:large">
+<footer>
     <hr>
     <h4>Assinado: Gabriel Ribeiro de Souza</h4>
     <hr>
