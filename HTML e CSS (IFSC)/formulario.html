@@ -24,12 +24,12 @@
         <fieldset class="f1">
         <legend style="text-align: left;">Dados Pessoais:</legend>
         <div id="infos">
-            <label for="name" class="dados">Nome:</label>
-            <input type="text" name="name" value="Pedro de Alcântara" placeholder="Escreva o seu nome" style="width: 250px;"><br>
+            <label for="name1" class="dados">Nome:</label>
+            <input type="text" id="name1" name="name" value="Pedro de Alcântara" placeholder="Escreva o seu nome" style="width: 250px;"><br>
             <label for="age" class="dados">Idade:</label>
-            <input type="number" name="age" min="18" max="65" style="width: 150px;"><br>
-            <label for="birth" class="dados">Nascimento</label>
-            <input type="date" name="birth" value="" min="1980-12-31" max="2007-12-31">
+            <input type="number" id="age" name="age" min="18" max="65" style="width: 150px;"><br>
+            <label for="birth1" class="dados">Nascimento</label>
+            <input type="date" id="birth1" name="birth" value="" min="1980-12-31" max="2007-12-31">
             <button type="reset" id="birth">X</button>
         </div>
         </fieldset>
@@ -43,13 +43,13 @@
             <label for="2019">2019</label><br>
             <input type="radio" name="year" id="2018">
             <label for="2018">2019</label><br>
-            <input type="radio" name="year" id="before">
+            <input type="radio" name="year" id="before_2018">
             <label for="before_2018">Antes de 2018</label><br><br>
         
             <label>Área de Atuação:</label><br>
-            <input type="checkbox" name="area">
+            <input type="checkbox" name="area" id="sistemas">
             <label for="sistemas">Desenvolvimento de Sistemas</label><br>
-            <input type="checkbox" name="area">
+            <input type="checkbox" name="area" id="ti">
             <label for="ti">Gestão de TI</label>
             </fieldset>
     </form>
@@ -70,24 +70,24 @@
                 <legend>Informações pessoais</legend> 
                 
                 <div>
-                    <label for="name" class="infos">Nome:</label>
-                    <input type="text" name="name" placeholder="Seu nome aqui..." style="width: 250px;"><br>
+                    <label for="name2" class="infos">Nome:</label>
+                    <input type="text" id="name2" name="name" placeholder="Seu nome aqui..." style="width: 250px;"><br>
                     <label for="mail" class="infos">E-mail</label>
-                    <input type="email" name="mail" style="width: 250px;"><br>
-                    <label for="birth" class="infos">Data de Nascimento</label>
-                    <input type="date" name="birth" min="1980-12-31" max="2007-12-31"><br>
+                    <input type="email" id="mail" name="mail" style="width: 250px;"><br>
+                    <label for="birth2" class="infos">Data de Nascimento</label>
+                    <input type="date" id="birth2" name="birth" min="1980-12-31" max="2007-12-31"><br>
                     <label for="login" class="infos">Login</label>
-                    <input type="text" name="login" required style="width: 130px;"><br>
+                    <input type="text" id="login" name="login" required style="width: 130px;"><br>
                     <label for="senha" class="infos">Senha</label>
-                    <input type="password" name="pword" required style="width: 130px;"><br> 
+                    <input type="password" id="senha" name="pword" required style="width: 130px;"><br> 
                 </div>
                     <br>
                 <div>
                     <label>Faixa Etária:</label><br>
-                    <input type="radio" name="check">
-                    <label for="check">Menor ou igual a 18 anos</label><br>
-                    <input type="radio" name="check">
-                    <label for="check">Maior que 18 anos</label>
+                    <input type="radio" name="check" id="check1">
+                    <label for="check1">Menor ou igual a 18 anos</label><br>
+                    <input type="radio" name="check" id="check2">
+                    <label for="check2">Maior que 18 anos</label>
                 </div>
             </fieldset>
         </form>

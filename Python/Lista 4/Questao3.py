@@ -1,6 +1,5 @@
 #Faça um algoritmo que mostre os números pares entre 1 e 27
-
-go = "s"
+#FINALIZADO
 def primeiracont():
     global a
     print(a," ")
@@ -12,6 +11,8 @@ def segundacont():
 def invalidate():
     print("Não foi o número solicitado")
   
+go = "s"
+
 while (go == "s"):
     a = int(input("Qual o número determinado?: "))  
     if (a == 1):
@@ -24,4 +25,5 @@ while (go == "s"):
     else:
             invalidate()
     go = input("Deseja refazer a operação? S/N: ")
-            
+ 
+#FINALIZADO           

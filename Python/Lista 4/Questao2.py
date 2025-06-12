@@ -3,8 +3,7 @@
 #triângulo, escrever uma mensagem.
 #Obs. 1: Triângulos: Equilátero: todos os lados iguais; Isósceles: dois lados iguais; Escaleno: todos os lados diferentes
 #Obs. 2: Para que seja um triângulo, cada lado deve ser menor que a soma dos outros dois. 
-
-go = "s"
+#FINALIZADO
 def equilatero():
     print("O triângulo analisado é equilátero")
 def isosceles():
@@ -14,6 +13,8 @@ def escaleno():
 def invalido():
     print("Este não é um triângulo")
   
+go = "s"
+
 while go == "s":
     l1 = int (input ("Qual o valor do primeiro lado do triângulo?: "))
     l2 = int (input("Qual o valor do segundo lado do triângulo?: "))
@@ -30,6 +31,6 @@ while go == "s":
         
     go = (input("Deseja refazer a operação?: "))
     
-
+#FINALIZADO
     
 

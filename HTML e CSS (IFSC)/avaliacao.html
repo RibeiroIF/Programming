@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Atividade Avaliativa - Web Design</title>
+        <link rel="icon" type="image/x-icon" href="https://rwnobrega.page/_assets/ifsc-logo.png">
+        <link rel="stylesheet" href="avaliacao.css">
+    </head>
+    <body>
+        <header>
+            <hr>
+            <h1>Atividade Avaliativa - Web Design</h1>
+            <h4>Alunos: Gabriel R e Clara de Bem</h4>
+            <hr>
+        </header>
+            <h2 class="titulo">IFSC - CTDS - dados cadastrais de alunos</h2>
+        <div class="formulario">
+            <form action="recebe-dados-a.php" target="blank" method="get" id="form-a">
+            <fieldset class="f1">
+                <legend class="l1">Alunos - Dados Pessoais</legend>
+                <div class="quadro1">
+                    <label for="name" class="dados1">Nome Completo:</label>
+                    <input type="text" id="name" name="name" class="input1a"><br>
+                    <label for="mail" class="dados1">E-mail:</label>
+                    <input type="email" id="mail" name="mail" class="input1a"><br>
+                    <label for="phone" class="dados1">Celular:</label>
+                    <input type="tel" id="phone" name="phone" class="input1b"><br>
+                    <label for="matricula" class="dados1">Número de Matrícula:</label>
+                    <input type="text" id="matricula" name="matricula" class="input1b"><br>
+                    <label for="login" class="dados1">Login de Usuário:</label>
+                    <input type="text" id="login" name="login" class="input1b"><br>
+                    <label for="senha" class="dados1">Senha de Usuário:</label>
+                    <input type="password" id="senha" name="senha" class="input1b">
+                </div>
+            </fieldset>
+            <br>
+            <fieldset class="f2">
+                <legend class="l2">Aluno - Dados Institucionais</legend>        
+                <div class="quadro2">
+                    <label for="fase" class="dados2">Selecione sua fase<a class="red">*</a>:</label>
+                    <select required size="1" id="fase">
+                        <option value="">Primeira</option>
+                        <option>Segunda</option>
+                        <option>Terceira</option>
+                    </select><br><br>
+                    <label class="dados2">Número de aulas semanais</label><br>
+                    <input type="radio" name="select" id="aulas1">
+                    <label for="aulas1" class="dados2">Menos de 20 aulas</label>
+                    <input type="radio" name="select" id="aulas2" checked>
+                    <label for="aulas2" class="dados2">Exatamente 20 aulas</label>
+                    <input type="radio" name="select" id="aulas3">
+                    <label for="aulas3" class="dados2">Mais de 20 aulas</label>
+                    <br><br>
+                    <input type="checkbox" id="check" name="check">
+                    <label for="check" class="dados2">Marque esta opção se já iniciou o Projeto Integrador</label>
+                </div>
+            </fieldset>
+            <br>
+            <button class="form-a" type="submit">Cadastrar Dados</button>
+            </form>
+        </div>
+    </body>
+</html>
