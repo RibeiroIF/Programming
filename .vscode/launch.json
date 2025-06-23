@@ -1,0 +1,126 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Atividade7",
+            "request": "launch",
+            "mainClass": "Atividade7",
+            "projectName": "IFSC_4e35050f"
+        },
+        {
+            "type": "java",
+            "name": "Questao1",
+            "request": "launch",
+            "mainClass": "Questao1",
+            "projectName": "IFSC_4e35050f"
+        },
+        {
+            "type": "java",
+            "name": "Questao10",
+            "request": "launch",
+            "mainClass": "Questao10",
+            "projectName": "IFSC_4e35050f"
+        },
+        {
+            "type": "java",
+            "name": "Questao11",
+            "request": "launch",
+            "mainClass": "Questao11",
+            "projectName": "IFSC_4e35050f"
+        },
+        {
+            "type": "java",
+            "name": "Questao12",
+            "request": "launch",
+            "mainClass": "Questao12",
+            "projectName": "IFSC_4e35050f"
+        },
+        {
+            "type": "java",
+            "name": "Questao13",
+            "request": "launch",
+            "mainClass": "Questao13",
+            "projectName": "IFSC_4e35050f"
+        },
+        {
+            "type": "java",
+            "name": "Questao2",
+            "request": "launch",
+            "mainClass": "Questao2",
+            "projectName": "IFSC_4e35050f"
+        },
+        {
+            "type": "java",
+            "name": "Questao3",
+            "request": "launch",
+            "mainClass": "Questao3",
+            "projectName": "IFSC_4e35050f"
+        },
+        {
+            "type": "java",
+            "name": "Questao4",
+            "request": "launch",
+            "mainClass": "Questao4",
+            "projectName": "IFSC_4e35050f"
+        },
+        {
+            "type": "java",
+            "name": "Questao5",
+            "request": "launch",
+            "mainClass": "Questao5",
+            "projectName": "IFSC_4e35050f"
+        },
+        {
+            "type": "java",
+            "name": "Questao6",
+            "request": "launch",
+            "mainClass": "Questao6",
+            "projectName": "IFSC_4e35050f"
+        },
+        {
+            "type": "java",
+            "name": "Questao7",
+            "request": "launch",
+            "mainClass": "Questao7",
+            "projectName": "IFSC_4e35050f"
+        },
+        {
+            "type": "java",
+            "name": "Questao8",
+            "request": "launch",
+            "mainClass": "Questao8",
+            "projectName": "IFSC_4e35050f"
+        },
+        {
+            "type": "java",
+            "name": "Questao9",
+            "request": "launch",
+            "mainClass": "Questao9",
+            "projectName": "IFSC_4e35050f"
+        },
+        {
+            "type": "java",
+            "name": "Teste_lav",
+            "request": "launch",
+            "mainClass": "Teste_lav",
+            "projectName": "IFSC_4e35050f"
+        },
+        {
+            "type": "java",
+            "name": "Trabalho1",
+            "request": "launch",
+            "mainClass": "Trabalho1",
+            "projectName": "IFSC_4e35050f"
+        }
+    ]
+}
